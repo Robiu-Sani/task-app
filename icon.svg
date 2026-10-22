@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">CodeBiruni WorkList</title>
+  <desc id="desc">A cyan geometric B and W monogram on an obsidian background.</desc>
+  <defs>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#67e8f9"/><stop offset=".52" stop-color="#06b6d4"/><stop offset="1" stop-color="#0891b2"/></linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="13" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="#020617"/>
+  <rect x="2" y="2" width="508" height="508" rx="114" fill="none" stroke="#164e63" stroke-opacity=".75" stroke-width="4"/>
+  <path d="M74 92h364v328H74z" fill="url(#shine)" opacity=".35"/>
+  <g filter="url(#glow)" fill="none" stroke="url(#cyan)" stroke-linecap="round" stroke-linejoin="round" stroke-width="29">
+    <path d="M153 143v226h93c44 0 68-22 68-57 0-29-19-48-47-53 22-8 34-25 34-48 0-43-31-68-80-68z"/>
+    <path d="M201 190h35c19 0 29 9 29 25s-10 25-29 25h-35z" stroke-width="22"/>
+    <path d="M201 283h42c20 0 31 10 31 28s-11 28-31 28h-42z" stroke-width="22"/>
+    <path d="M292 190l44 151 39-105 39 105 44-151" stroke-width="25"/>
+  </g>
+  <circle cx="397" cy="112" r="9" fill="#67e8f9"/>
+  <circle cx="421" cy="137" r="4" fill="#06b6d4"/>
+</svg>
